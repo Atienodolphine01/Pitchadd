@@ -12,7 +12,7 @@ The following command installs all the application requirements
 
 ## Setup
 Run 
-``git clone ``
+``git clone https://github.com/Atienodolphine01/Pitchadd.git``
 
 or download the zip file from github.
 
@@ -58,15 +58,15 @@ After extracting the files,
 
 | Inputs |  Description |
 | :---         |          ---: |
-| Username  | Account username, ``eg johndoe``|
+| Username  | Account username, ``eg Dolphine``|
 | Password  | Account password, ``eg parseword``|
 
 >Signup inputs
 
 | Inputs |  Description |
 | :---         |          ---: |
-| Username  | Account username, ``eg johndoe``|
-| Email  | User email, ``eg morty@testmail.com``|
+| Username  | Account username, ``eg Dolphine``|
+| Email  | User email, ``eg dolphine@testmail.com``|
 | Password  | Account password, ``eg parseword``|
 | Confirm Password  | Account password, ``eg parseword``|
 
@@ -81,7 +81,7 @@ After extracting the files,
 
 
 ## License
-> MIT License &copy; 2019 Victor Waichigo
+> MIT License &copy; 2020 AtyenoD
 
 ## Collaborate
-To collaborate, reach me on [waichigovick@gmail.com]()
+To collaborate, reach me on [awuordolphine65@gmail.com]()
