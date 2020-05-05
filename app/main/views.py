@@ -44,5 +44,6 @@ def pitch(id=None):
 
 @main.route('/profile')
 def profile():
+     pitches = Pitch.get_user_pitches(current_user.id)
 
-    return render_template('profile.html')
+     return render_template('profile.html', pitches=pitches)
