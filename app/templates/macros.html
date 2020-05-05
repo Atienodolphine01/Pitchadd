@@ -28,23 +28,20 @@
             </div>
         </div>
     {% endfor %}
-
 {% endmacro %}
 {% macro display_pitches(pitches) %}
         {% for pitches in pitches %}
         <div class="row justify-content-center">
             <div class="col-sm-3">
-                <h3> {{pitches.username| capitalize}} </h3>
+                <h3>username </h3>
             </div>
             <div class="col-sm-6 row justify-content-center">
                 <div class="card">
-                    {% if user.profile_pic_path %}
                     <img src="{{url_for('static',filename=pitches.profile_pic_path)}}"  class="img-thumbnail profile-image">
-                    {% endif %}
                 </div>
             </div>
             <div class="col-sm-3">
-                <h3>{{email.user.username}}</h3>
+                <h3>Email</h3>
             </div>
         </div>
         {% endfor %}
