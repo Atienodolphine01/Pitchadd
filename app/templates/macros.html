@@ -38,15 +38,14 @@
             </div>
             <div class="col-sm-6 row justify-content-center">
                 <div class="card">
+                    {% if user.profile_pic_path %}
                     <img src="{{url_for('static',filename=pitches.profile_pic_path)}}"  class="img-thumbnail profile-image">
+                    {% endif %}
                 </div>
             </div>
             <div class="col-sm-3">
                 <h3>{{email.user.username}}</h3>
             </div>
         </div>
-        <h3>{{pitches.pitches}}</h3> <hr>
-        <div class="row">
-    
-        </div>
         {% endfor %}
+{% endmacro %}
